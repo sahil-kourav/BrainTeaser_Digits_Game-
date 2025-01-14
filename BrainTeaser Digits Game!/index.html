@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainTeaser Digits Game!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h3 class="main-head">Welcome to BrainTeaser Digits Game! Ready to put your brain to the test? 
+        Let's see if you can crack these puzzles!</h3>
+     <div class="handle-tlc">
+         <div id="level"></div>
+         <div id="questionNumber"></div>
+         <div id="coins"></div>
+     </div>   
+
+    <div id="questionContainer">
+        <p id="questionText"></p>
+        <div id="options"></div>
+        <p id="resultMessage"></p>
+    </div>
+
+    <button class="main-btn" id="startButton">Start Game</button>
+    <button class="main-btn" id="restartButton" style="display:none;">Restart Game</button>
+    <button class="main-btn" id="storeButton" style="display:none;">Store Collection</button>
+
+    <div class="storeCard" id="storeCard" style="display:none;">
+        <p>Use your coins:</p>
+        <button class="store-btn" id="hintButtonStore">Buy Hint (10 Coins)</button>
+        <button class="store-btn" id="skipButtonStore">Skip Question (20 Coins)</button>
+        <p id="hintMessage"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

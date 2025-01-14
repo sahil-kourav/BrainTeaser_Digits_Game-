@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+}
+.main-head {
+  margin-bottom: 25px;
+}
+
+.handle-tlc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-btn {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main-btn:hover {
+  background-color: #45a049;
+}
+
+.main-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#options {
+  margin-top: 20px;
+  width: 100%;
+  color: black;
+}
+
+#options button {
+  margin: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  background-color: #f4f4f4;
+  color: dark;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #e2e2e2;
+}
+
+#storeCard {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.store-btn {
+  margin: 0 10px;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.store-btn:hover {
+  background-color: #e2e2e2;
+}
+
+#resultMessage {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
